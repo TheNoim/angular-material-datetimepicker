@@ -29,6 +29,7 @@
   ],
   "dependencies": {
     "momentjs": "~2.10.2",
-    "angular-material": "~1.0.6"
+    "angular-material": "~1.0.6",
+    "angular-material-datetimepicker": "https://github.com/TheNoim/angular-material-datetimepicker"
   }
 }

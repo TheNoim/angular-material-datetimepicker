@@ -514,9 +514,7 @@
           controllerAs: 'cal',
           controller: ['$scope',
             function ($scope) {
-              var calendar = $scope.$parent,
-                picker = this.picker,
-                days = [];
+              var calendar = this, picker = $scope.$parent.picker, days = [];
 
               for (var i = picker.params.weekStart; days.length < 7; i++) {
                 if (i > 6) {
