@@ -514,7 +514,7 @@
           controllerAs: 'cal',
           controller: ['$scope',
             function ($scope) {
-              var calendar = this,
+              var calendar = $scope.$parent,
                 picker = this.picker,
                 days = [];
 
